@@ -2,5 +2,5 @@ package command_demo;
 
 public interface ICommand
 {
-    void Do();
+    public void Do();
 }

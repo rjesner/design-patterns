@@ -1,7 +1,7 @@
 package observer_demo;
 
 interface ISubject {
-    void register(Observer o);
-    void unregister(Observer o);
-    void notifyObservers();
+    public void register(Observer o);
+    public void unregister(Observer o);
+    public void notifyObservers();
 }
