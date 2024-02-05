@@ -8,8 +8,7 @@ public class StrategyDemo
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("***Strategy Pattern Demo***");
-        Scanner in= new Scanner(System.in);//To take input from user
+        Scanner in= new Scanner(System.in);
         IChoice ic = null;
         Context cxt = new Context();
         String input1,input2;;

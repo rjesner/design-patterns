@@ -2,7 +2,6 @@ package observer_demo;
 
 public class ObserverDemo {
     public static void main(String[] args) {
-        System.out.println("***Observer Pattern Demo***\n");
         Observer o1 = new Observer();
         Subject sub1 = new Subject();
         sub1.register(o1);

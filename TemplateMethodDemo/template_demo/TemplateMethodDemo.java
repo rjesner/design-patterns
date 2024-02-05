@@ -4,7 +4,6 @@ public class TemplateMethodDemo
 {
     public static void main(String[] args)
     {
-        System.out.println("***Template Method Pattern Demo***\n");
         BasicEngineering bs = new ComputerScience();
         System.out.println("Computer Sc Papers:");
         bs.Papers();
