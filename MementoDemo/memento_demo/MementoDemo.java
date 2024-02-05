@@ -1,6 +1,6 @@
 package memento_demo;
 
-class MementoDemo
+public class MementoDemo
 {
     public static void main(String[] args)
     {

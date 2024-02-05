@@ -1,6 +1,6 @@
 package memento_demo;
 
-class Memento
+public class Memento
 {
     private String state;
 

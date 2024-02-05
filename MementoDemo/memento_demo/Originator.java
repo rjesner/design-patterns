@@ -1,6 +1,6 @@
 package memento_demo;
 
-class Originator
+public class Originator
 {
     private String state;
     Memento m;
