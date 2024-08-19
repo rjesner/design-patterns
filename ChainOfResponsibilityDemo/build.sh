@@ -1,0 +1,4 @@
+#!/bin/sh
+javac chain_of_responsibility_demo/*.java
+jar cvfe chain_of_responsibility.jar chain_of_responsibility_demo/ChainOfResponsibilityDemo chain_of_responsibility_demo/ChainOfResponsibilityDemo.class chain_of_responsibility_demo/*.class
+java -jar chain_of_responsibility.jar
